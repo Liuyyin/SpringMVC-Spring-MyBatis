@@ -26,7 +26,7 @@ public class MUserController {
 	public void setMuserService(MUserServiceI muserService) {
 		this.muserService = muserService;
 	}
-	//测试
+	
 	@RequestMapping(value="/listUser")
 	public String listUser(HttpServletRequest request) {
 		
